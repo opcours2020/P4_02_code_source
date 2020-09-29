@@ -15,10 +15,10 @@ Header append Vary User-Agent env=!dont-vary
 <IfModule mod_expires.c>
  ExpiresActive On
  ExpiresDefault "access plus 7200 seconds"
- ExpiresByType image/jpg "access plus 2592000 seconds"
- ExpiresByType image/jpeg "access plus 2592000 seconds"
- ExpiresByType image/png "access plus 2592000 seconds"
- ExpiresByType image/gif "access plus 2592000 seconds"
+ ExpiresByType img/jpg "access plus 2592000 seconds"
+ ExpiresByType img/jpeg "access plus 2592000 seconds"
+ ExpiresByType img/png "access plus 2592000 seconds"
+ ExpiresByType img/gif "access plus 2592000 seconds"
  AddType image/x-icon .ico
  ExpiresByType image/ico "access plus 2592000 seconds"
  ExpiresByType image/icon "access plus 2592000 seconds"
